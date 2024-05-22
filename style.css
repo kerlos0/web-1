@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --bg-color:#1c1cdd; 
+}
+
+header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav .nav-link {
+    color: #333;
+}
+
+#home {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#home h3 {
+    margin-top: 20px;
+}
+body{
+    background: url('https://images.ctfassets.net/wv75stsetqy3/18jOEJrhKM7WA81nkCKZV8/6f70df258ed1233d5c3a8e3f01298b06/Greece.jpg?q=60&fit=fill&fm=webp') center no-repeat;
+    background-size: cover ;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue ;
+}
+
+
+
+.images{
+    width: 100%;
+    object-fit: cover;
+}
